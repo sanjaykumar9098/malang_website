@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Inter, Playfair_Display } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
+import { assetUrl } from "@/lib/utils"
 import "./globals.css"
 
 const inter = Inter({
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.jpg",
+        url: assetUrl("/og-image.jpg"),
         width: 1200,
         height: 630,
         alt: "Malang Interiors & Trolleys - Interior Design Services in Pune",
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
     title: "Malang Interiors & Trolleys - Interior Designer in Pune",
     description:
       "Crafting Spaces, Enhancing Living. Custom wooden furniture, complete interior design, modular kitchens & home renovation in Pune.",
-    images: ["/og-image.jpg"],
+    images: [assetUrl("/og-image.jpg")],
   },
   robots: {
     index: true,
@@ -167,10 +168,10 @@ export default function RootLayout({
             }),
           }}
         />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.jpg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.jpg" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" href={assetUrl("/favicon.ico")} sizes="any" />
+        <link rel="icon" href={assetUrl("/favicon.jpg")} type="image/svg+xml" />
+        <link rel="apple-touch-icon" href={assetUrl("/apple-touch-icon.jpg")} />
+        <link rel="manifest" href={assetUrl("/manifest.json")} />
         <meta name="theme-color" content="#D4AF37" />
         <meta name="msapplication-TileColor" content="#D4AF37" />
       </head>

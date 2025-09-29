@@ -1,4 +1,5 @@
 import Head from "next/head"
+import { assetUrl } from "@/lib/utils"
 
 interface SEOHeadProps {
   title?: string
@@ -14,7 +15,7 @@ export default function SEOHead({
   description = "Crafting Spaces, Enhancing Living. Custom wooden furniture, complete interior design, modular kitchens & home renovation in Pune, Maharashtra.",
   keywords = "interior designer pune, modular kitchen pune, custom furniture pune, kitchen trolleys pune, home renovation pune",
   canonical,
-  ogImage = "/og-image.jpg",
+  ogImage = assetUrl("/og-image.jpg"),
   noindex = false,
 }: SEOHeadProps) {
   return (

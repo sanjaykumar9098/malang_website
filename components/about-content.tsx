@@ -1,4 +1,5 @@
 import { Award, Shield, Users, Clock } from "lucide-react"
+import { assetUrl } from "@/lib/utils"
 
 export default function AboutContent() {
   const values = [
@@ -53,7 +54,7 @@ export default function AboutContent() {
 
           <div className="bg-light-ash p-8 rounded-2xl border border-gold/20">
             <img
-              src="/sanjay-kumar-proprietor-malang-interiors-pune.jpg"
+              src={assetUrl("/sanjay-kumar-proprietor-malang-interiors-pune.jpg")}
               alt="Sanjay Kumar - Proprietor, Malang Interiors & Trolleys"
               className="w-full h-80 object-cover rounded-xl mb-6"
             />

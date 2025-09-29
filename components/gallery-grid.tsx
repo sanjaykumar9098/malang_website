@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { X, ZoomIn } from "lucide-react"
+import { assetUrl } from "@/lib/utils"
 
 export default function GalleryGrid() {
   const [activeFilter, setActiveFilter] = useState("All")
@@ -23,84 +24,84 @@ export default function GalleryGrid() {
       id: 1,
       title: "Modern Modular Kitchen",
       category: "Kitchen",
-      image: "/gallery/modern-modular-kitchen-with-island-and-wooden-ca.jpg",
+      image: assetUrl("/gallery/modern-modular-kitchen-with-island-and-wooden-ca.jpg"),
       description: "Spacious modular kitchen with island design and premium wooden cabinets",
     },
     {
       id: 2,
       title: "Elegant Living Room",
       category: "Living",
-      image: "/gallery/elegant-living-room-with-wooden-furniture-and-wa.jpg",
+      image: assetUrl("/gallery/elegant-living-room-with-wooden-furniture-and-wa.jpg"),
       description: "Contemporary living room with custom wooden furniture and warm lighting",
     },
     {
       id: 3,
       title: "Master Bedroom Interior",
       category: "Bedroom",
-      image: "/gallery/luxurious-master-bedroom-with-wooden-bed-and-war.jpg",
+      image: assetUrl("/gallery/luxurious-master-bedroom-with-wooden-bed-and-war.jpg"),
       description: "Luxurious master bedroom with coordinated wooden furniture",
     },
     {
       id: 4,
       title: "Walk-in Wardrobe",
       category: "Wardrobes",
-      image: "/gallery/spacious-walk-in-wardrobe-with-wooden-shelves-an.jpg",
+      image: assetUrl("/gallery/spacious-walk-in-wardrobe-with-wooden-shelves-an.jpg"),
       description: "Spacious walk-in wardrobe with organized storage solutions",
     },
     {
       id: 5,
       title: "Office Interior Design",
       category: "Commercial",
-      image: "/gallery/modern-office-interior-with-wooden-furniture-and.jpg",
+      image: assetUrl("/gallery/modern-office-interior-with-wooden-furniture-and.jpg"),
       description: "Professional office space with modern wooden furniture",
     },
     {
       id: 6,
       title: "Traditional Kitchen Design",
       category: "Kitchen",
-      image: "/gallery/traditional-indian-kitchen-with-wooden-cabinets.jpg",
+      image: assetUrl("/gallery/traditional-indian-kitchen-with-wooden-cabinets.jpg"),
       description: "Traditional Indian kitchen with wooden cabinets and modern appliances",
     },
     {
       id: 7,
       title: "Cozy Living Space",
       category: "Living",
-      image: "/gallery/cozy-living-room-with-wooden-sofa-and-coffee-tab.jpg",
+      image: assetUrl("/gallery/cozy-living-room-with-wooden-sofa-and-coffee-tab.jpg"),
       description: "Cozy living room with custom wooden sofa and coffee table",
     },
     {
       id: 8,
       title: "Kids Bedroom",
       category: "Bedroom",
-      image: "/gallery/colorful-kids-bedroom-with-wooden-bunk-bed-and-s.jpg",
+      image: assetUrl("/gallery/colorful-kids-bedroom-with-wooden-bunk-bed-and-s.jpg"),
       description: "Colorful kids bedroom with wooden bunk bed and study area",
     },
     {
       id: 9,
       title: "Built-in Wardrobe",
       category: "Wardrobes",
-      image: "/gallery/built-in-wardrobe-with-mirror-doors-and-interior.jpg",
+      image: assetUrl("/gallery/built-in-wardrobe-with-mirror-doors-and-interior.jpg"),
       description: "Built-in wardrobe with mirror doors and interior lighting",
     },
     {
       id: 10,
       title: "Restaurant Interior",
       category: "Commercial",
-      image: "/gallery/restaurant-interior-with-wooden-tables-and-warm.jpg",
+      image: assetUrl("/gallery/restaurant-interior-with-wooden-tables-and-warm.jpg"),
       description: "Restaurant interior with wooden tables and warm ambiance",
     },
     {
       id: 11,
       title: "L-Shaped Kitchen",
       category: "Kitchen",
-      image: "/gallery/l-shaped-kitchen-with-granite-countertop-and-woo.jpg",
+      image: assetUrl("/gallery/l-shaped-kitchen-with-granite-countertop-and-woo.jpg"),
       description: "L-shaped kitchen with granite countertop and wooden cabinets",
     },
     {
       id: 12,
       title: "Minimalist Living Room",
       category: "Living",
-      image: "/gallery/minimalist-living-room-with-wooden-tv-unit-and-s.jpg",
+      image: assetUrl("/gallery/minimalist-living-room-with-wooden-tv-unit-and-s.jpg"),
       description: "Minimalist living room with wooden TV unit and seating",
     },
   ]

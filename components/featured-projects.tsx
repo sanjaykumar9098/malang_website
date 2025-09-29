@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { assetUrl } from "@/lib/utils"
 
 export default function FeaturedProjects() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -12,24 +13,24 @@ export default function FeaturedProjects() {
       id: 1,
       title: "Modern Kitchen Renovation",
       category: "Kitchen",
-      before: "/old-traditional-kitchen-before-renovation.jpg",
-      after: "/modern-modular-kitchen-with-wooden-cabinets-and-go.jpg",
+      before: assetUrl("/old-traditional-kitchen-before-renovation.jpg"),
+      after: assetUrl("/modern-modular-kitchen-with-wooden-cabinets-and-go.jpg"),
       description: "Complete kitchen transformation with modular design and premium finishes",
     },
     {
       id: 2,
       title: "Living Room Interior",
       category: "Living Room",
-      before: "/empty-living-room-before-interior-design.jpg",
-      after: "/elegant-living-room-with-wooden-furniture-and-warm.jpg",
+      before: assetUrl("/empty-living-room-before-interior-design.jpg"),
+      after: assetUrl("/elegant-living-room-with-wooden-furniture-and-warm.jpg"),
       description: "Elegant living space with custom wooden furniture and warm lighting",
     },
     {
       id: 3,
       title: "Master Bedroom Wardrobe",
       category: "Bedroom",
-      before: "/bedroom-without-wardrobe-storage.jpg",
-      after: "/bedroom-with-large-wooden-wardrobe-and-organized-s.jpg",
+      before: assetUrl("/bedroom-without-wardrobe-storage.jpg"),
+      after: assetUrl("/bedroom-with-large-wooden-wardrobe-and-organized-s.jpg"),
       description: "Spacious wardrobe design with optimized storage solutions",
     },
   ]
