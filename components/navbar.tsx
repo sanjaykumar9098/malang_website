@@ -50,14 +50,14 @@ export default function Navbar() {
               className="border-gold text-gold hover:bg-gold hover:text-dark-walnut bg-transparent"
               asChild
             >
-              <a href="tel:+919876543210">
+              <a href="tel:+919665795871">
                 <Phone className="w-4 h-4 mr-2" />
                 Call Now
               </a>
             </Button>
             <Button size="sm" className="bg-gold hover:bg-gold/90 text-dark-walnut font-medium" asChild>
               <a
-                href="https://wa.me/919876543210?text=Hi%20Malang%20Interiors%2C%20I%27d%20like%20a%20free%20consultation%20for%20interior%20design%20in%20Pune."
+                href="https://wa.me/919665795871?text=Hi%20Malang%20Interiors%2C%20I%27d%20like%20a%20free%20consultation%20for%20interior%20design%20in%20Pune."
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -96,14 +96,14 @@ export default function Navbar() {
                   className="border-gold text-gold hover:bg-gold hover:text-dark-walnut bg-transparent"
                   asChild
                 >
-                  <a href="tel:+919876543210">
+                  <a href="tel:+919665795871">
                     <Phone className="w-4 h-4 mr-2" />
-                    Call +91 9876543210
+                    Call +91 9665795871
                   </a>
                 </Button>
                 <Button size="sm" className="bg-gold hover:bg-gold/90 text-dark-walnut font-medium" asChild>
                   <a
-                    href="https://wa.me/919876543210?text=Hi%20Malang%20Interiors%2C%20I%27d%20like%20a%20free%20consultation%20for%20interior%20design%20in%20Pune."
+                    href="https://wa.me/919665795871?text=Hi%20Malang%20Interiors%2C%20I%27d%20like%20a%20free%20consultation%20for%20interior%20design%20in%20Pune."
                     target="_blank"
                     rel="noopener noreferrer"
                   >

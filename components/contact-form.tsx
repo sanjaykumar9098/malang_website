@@ -45,7 +45,7 @@ Message: ${formData.message}
     `.trim()
 
     const encodedMessage = encodeURIComponent(whatsappMessage)
-    window.open(`https://wa.me/919876543210?text=${encodedMessage}`, "_blank")
+          window.open(`https://wa.me/919665795871?text=${encodedMessage}`, "_blank")
 
     setIsSubmitting(false)
     setIsSubmitted(true)
@@ -117,7 +117,7 @@ Message: ${formData.message}
                 type="tel"
                 value={formData.phone}
                 onChange={(e) => handleChange("phone", e.target.value)}
-                placeholder="+91 9876543210"
+                placeholder="+91 9665795871"
                 className="border-gold/30 focus:border-gold"
               />
             </div>

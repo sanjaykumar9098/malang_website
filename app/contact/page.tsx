@@ -8,7 +8,7 @@ import ContactInfo from "@/components/contact-info"
 export const metadata = {
   title: "Contact Malang Interiors & Trolleys - Interior Design Consultation Pune",
   description:
-    "Get in touch for interior design consultation in Pune. Call +91-9876543210 or WhatsApp for kitchen, bedroom, wardrobe & commercial interior design services.",
+    "Get in touch for interior design consultation in Pune. Call +91-9665795871 or WhatsApp for kitchen, bedroom, wardrobe & commercial interior design services.",
   keywords:
     "interior design consultation pune, contact interior designer pune, kitchen design quote, bedroom interior consultation, wardrobe design pune",
 }

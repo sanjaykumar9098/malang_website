@@ -8,11 +8,11 @@ export default function ContactHero() {
     const message = encodeURIComponent(
       "Hi! I'm interested in interior design services. Can you help me with a consultation?",
     )
-    window.open(`https://wa.me/919876543210?text=${message}`, "_blank")
+    window.open(`https://wa.me/919665795871?text=${message}`, "_blank")
   }
 
   const handleCall = () => {
-    window.open("tel:+919876543210", "_self")
+    window.open("tel:+919665795871", "_self")
   }
 
   return (
@@ -41,7 +41,7 @@ export default function ContactHero() {
             <h3 className="text-lg font-serif font-semibold text-light-ash mb-2">Call Us</h3>
             <p className="text-light-ash/70 text-sm mb-4">Speak directly with our team</p>
             <Button onClick={handleCall} className="bg-gold hover:bg-gold/90 text-dark-walnut font-semibold w-full">
-              +91-9876543210
+              +91-9665795871
             </Button>
           </div>
 

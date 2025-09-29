@@ -39,8 +39,8 @@ export default function ContactInfo() {
             <div>
               <h3 className="font-semibold text-dark-walnut mb-1">Call or WhatsApp</h3>
               <p className="text-charcoal/70">
-                <a href="tel:+919876543210" className="hover:text-gold transition-colors">
-                  +91-9876543210
+                        <a href="tel:+919665795871" className="hover:text-gold transition-colors">
+          +91-9665795871
                 </a>
               </p>
               <p className="text-sm text-charcoal/60">Available: Mon-Sat, 9 AM - 7 PM</p>

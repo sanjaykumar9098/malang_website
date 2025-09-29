@@ -6,7 +6,7 @@ export function LocalBusinessStructuredData() {
     description:
       "Professional interior design services in Pune, Maharashtra. Specializing in custom furniture, modular kitchens, and complete home renovations.",
     url: "https://malanginteriors.com",
-    telephone: "+91-9876543210",
+    telephone: "+91-9665795871",
     email: "info@malanginteriors.com",
     address: {
       "@type": "PostalAddress",
@@ -78,7 +78,7 @@ export function LocalBusinessStructuredData() {
     sameAs: [
       "https://www.facebook.com/malanginteriors",
       "https://www.instagram.com/malanginteriors",
-      "https://wa.me/919876543210",
+      "https://wa.me/919665795871",
     ],
   }
 
@@ -93,7 +93,7 @@ export function ServiceStructuredData({ service }: { service: string }) {
     provider: {
       "@type": "LocalBusiness",
       name: "Malang Interiors & Trolleys",
-      telephone: "+91-9876543210",
+      telephone: "+91-9665795871",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Pune",
