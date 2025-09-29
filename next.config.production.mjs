@@ -15,4 +15,4 @@ const nextConfig = {
   assetPrefix: '/malang_website/',
 }
 
-export default nextConfig 
+export default nextConfig

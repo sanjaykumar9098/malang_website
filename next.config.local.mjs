@@ -9,10 +9,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export',
-  trailingSlash: true,
-  basePath: '/malang_website',
-  assetPrefix: '/malang_website/',
+  // Remove basePath and assetPrefix for local development
+  // output: 'export',
+  // trailingSlash: true,
+  // basePath: '/malang_website',
+  // assetPrefix: '/malang_website/',
 }
 
 export default nextConfig 
